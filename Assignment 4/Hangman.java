@@ -15,6 +15,7 @@ public class Hangman extends ConsoleProgram {
 	{
 	canvas = new HangmanCanvas();
 	add(canvas);
+	wordSet.run();
 	}
 	
     public void run() {
